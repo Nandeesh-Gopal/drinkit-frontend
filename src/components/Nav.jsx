@@ -18,7 +18,8 @@ function Nav(){
                         : currentPath==="/signup"?(<button onClick={()=>navi("/login")}>Login</button>)
                         :(<button onClick={()=>navi("/login")}>Login</button>)
                     }
-                    <button onClick={()=>navi("/orders")}>My Orders</button>
+                    <button onClick={ ()=>navi("/")}>Home</button>
+                    <button onClick={ ()=>navi("/orders")}>My Orders</button>
                 </div>
             </div>
         </>

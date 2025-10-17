@@ -8,7 +8,7 @@ function Nav(){
         <>
             <div className='nav'>
                 <h1>Drink it</h1>
-                <div>
+                <div style={{display:'flex',gap:'10px'}}>
                     <input type="text"></input>
                     <button>Search</button>
                 </div>
